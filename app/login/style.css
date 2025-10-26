@@ -1,0 +1,19 @@
+
+.form button {
+  padding: 0.25em 0.5em;
+  color: white;
+  background-color: #174143;
+  border-radius: 0.5em;
+}
+
+.form input {
+  border: 1px solid #427A76;
+  background-color: #dddddd;
+  padding: 0.25em 0.5em;
+  border-radius: 0.5em;
+}
+
+.form > * + * {
+  margin-top: 1em;
+}
+
